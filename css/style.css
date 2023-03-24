@@ -156,6 +156,16 @@ header a {
   .offer h2 {
     width: 100% !important;
   }
+  .enter {
+    margin-top: 50px !important;
+  }
+  .contact {
+    margin-top: 100px !important;
+  }
+  .contact .iframe {
+    width: 360px !important;
+    height: 320px !important;
+  }
 }
 .product {
   background: linear-gradient(179.59deg, #EDEDED 0.35%, rgba(255, 255, 255, 0.0001) 99.63%);
@@ -293,6 +303,47 @@ main {
 .offer {
   margin-top: 100px;
   background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+}
+
+.enter {
+  margin-top: 70px;
+}
+.enter .form-rounded {
+  border-radius: 1rem;
+}
+
+.content a {
+  outline: none;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.contact {
+  height: 320;
+  width: 870px;
+  margin-top: 150px;
+  padding: 50px !important;
+}
+.contact .message {
+  border: 1px solid #DDDDDD;
+  border-radius: 20px;
+}
+.contact input {
+  background: #F5F5F5;
+  margin: auto;
+}
+.contact .form-rounded {
+  border-radius: 1rem;
+}
+.contact .iframe {
+  overflow: hidden;
+}
+.contact textarea {
+  background: #F5F5F5;
+  height: 193px;
+}
+.contact button {
+  border-radius: 35px;
 }
 
 * {
