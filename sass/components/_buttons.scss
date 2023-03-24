@@ -1,0 +1,14 @@
+.btn-product {
+    color: var(--white);
+    background: var(--green);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    &:hover {
+        border: 1px solid #BCD0E5;
+        background: var(--white);
+        color: #173A56;
+    }
+}

@@ -1,0 +1,13 @@
+header {
+    .container {
+        flex-direction: row-reverse;
+        display: flex;
+        align-items: center;
+        .header-box {
+            width: 50%;
+        }
+    }
+    a {
+        color: var(--green);
+    }
+}

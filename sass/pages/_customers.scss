@@ -1,0 +1,104 @@
+.product {
+    background: linear-gradient(179.59deg, #EDEDED 0.35%, rgba(255, 255, 255, 0.0001) 99.63%);
+}
+
+.advantage {
+    .nth {
+        gap: 80px;
+        margin-top: 170px;
+        .select{
+            width: 35px;
+            height: 35px;
+        }
+    }
+    .nth:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+}
+
+.process {
+    margin-top: 220px;
+}
+
+.content {
+    margin-top: 150px;
+    .card {
+        &:hover {
+            h3 {
+                color: var(--green);
+            }
+        }
+    }
+}
+
+.price {
+    margin-top: 150px;
+    .pricing-table {
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        &:hover {
+            background: #02897A;
+            p, h3 {
+                color: var(--white);
+            }
+            button {
+                color: var(--green);
+                background: var(--white);
+            }
+        }
+        .price-value {
+                .amount {
+                    font-weight: 700;
+                    font-size: 76px;
+                    line-height: 100px;
+                    letter-spacing: 0.2px;
+                    color: #02897A;
+                }
+                .currency {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 30px;
+                    letter-spacing: 0.1px;
+                    color: #02897A;
+                    padding-top: 40px !important;
+                }
+                .duration {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: 0.1px;
+                    color: #AFAFAF;
+                    text-transform: uppercase;
+                }
+        }
+    }
+}
+
+.review {
+    margin-top: 150px;
+}
+
+.join {
+    margin-top: 150px;
+    .container{
+        border-radius: 32px;
+        &:hover {
+            color: var(--white);
+            background: var(--green);
+            button {
+                color: var(--green);
+                background: var(--white);
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 150px;
+    .input {
+        border: 1px solid #BCD0E5;
+        border-radius: 4px;
+        margin-top: 34px;
+        margin-bottom: 20px;
+    }
+}

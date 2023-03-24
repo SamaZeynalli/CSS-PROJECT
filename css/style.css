@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;700&display=swap");
 :root {
   --green: #02897A;
   --blue: #4D8DFF;
@@ -8,4 +9,233 @@
   --dark: #1F2E35;
   --middle: #30444E;
   --gray: #475E69;
+}
+
+h1, h2, h3, p {
+  color: var(--black);
+}
+
+.img {
+  width: 100%;
+}
+
+h1 {
+  font-weight: 700 !important;
+  font-size: 40px !important;
+  line-height: 60px !important;
+}
+
+h2 {
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  line-height: 48px !important;
+}
+
+h3 {
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  line-height: 33px !important;
+}
+
+p {
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 28px !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn-product {
+  color: var(--white);
+  background: var(--green);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+}
+.btn-product:hover {
+  border: 1px solid #BCD0E5;
+  background: var(--white);
+  color: #173A56;
+}
+
+header .container {
+  flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
+}
+header .container .header-box {
+  width: 50%;
+}
+header a {
+  color: var(--green);
+}
+
+@media (max-width: 768px) {
+  nav {
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+  }
+  header .container {
+    flex-direction: column !important;
+  }
+  header .container .header-box {
+    width: 100%;
+  }
+  header .container .header-box h1, header .container .header-box p {
+    text-align: center;
+  }
+  .product .row {
+    text-align: center !important;
+    width: 60%;
+    margin: auto;
+  }
+  .product h1 {
+    width: 100% !important;
+  }
+  .nth {
+    flex-direction: column !important;
+    margin-top: 100px !important;
+  }
+  .process {
+    margin-top: 150px !important;
+  }
+  .process p {
+    width: 100% !important;
+  }
+  .content {
+    margin-top: 100px !important;
+  }
+  .price {
+    margin-top: 100px !important;
+    flex-direction: column;
+  }
+  .review {
+    margin-top: 100px !important;
+  }
+  .review p {
+    width: 100% !important;
+  }
+  .join {
+    margin-top: 100px !important;
+  }
+  .join .img {
+    margin-top: 40px !important;
+  }
+  footer {
+    margin-top: 100px !important;
+    text-align: center;
+  }
+  footer .row div {
+    margin-top: 30px !important;
+  }
+}
+.product {
+  background: linear-gradient(179.59deg, #EDEDED 0.35%, rgba(255, 255, 255, 0.0001) 99.63%);
+}
+
+.advantage .nth {
+  gap: 80px;
+  margin-top: 170px;
+}
+.advantage .nth .select {
+  width: 35px;
+  height: 35px;
+}
+.advantage .nth:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.process {
+  margin-top: 220px;
+}
+
+.content {
+  margin-top: 150px;
+}
+.content .card:hover h3 {
+  color: var(--green);
+}
+
+.price {
+  margin-top: 150px;
+}
+.price .pricing-table {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.price .pricing-table:hover {
+  background: #02897A;
+}
+.price .pricing-table:hover p, .price .pricing-table:hover h3 {
+  color: var(--white);
+}
+.price .pricing-table:hover button {
+  color: var(--green);
+  background: var(--white);
+}
+.price .pricing-table .price-value .amount {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  letter-spacing: 0.2px;
+  color: #02897A;
+}
+.price .pricing-table .price-value .currency {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #02897A;
+  padding-top: 40px !important;
+}
+.price .pricing-table .price-value .duration {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #AFAFAF;
+  text-transform: uppercase;
+}
+
+.review {
+  margin-top: 150px;
+}
+
+.join {
+  margin-top: 150px;
+}
+.join .container {
+  border-radius: 32px;
+}
+.join .container:hover {
+  color: var(--white);
+  background: var(--green);
+}
+.join .container:hover button {
+  color: var(--green);
+  background: var(--white);
+}
+
+footer {
+  margin-top: 150px;
+}
+footer .input {
+  border: 1px solid #BCD0E5;
+  border-radius: 4px;
+  margin-top: 34px;
+  margin-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 200px auto;
+  width: 90%;
 }/*# sourceMappingURL=style.css.map */

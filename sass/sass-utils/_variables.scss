@@ -9,3 +9,39 @@
     --middle: #30444E;
     --gray: #475E69;
 }
+
+
+h1, h2, h3, p {
+    color: var(--black);
+}
+
+.img {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    line-height: 60px !important;
+}
+
+h2 {
+    font-weight: 700 !important;
+    font-size: 32px !important;
+    line-height: 48px !important;
+}
+
+h3 {
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 33px !important;
+}
+
+p {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+}
+ul {
+    list-style: none;
+}
