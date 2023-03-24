@@ -115,6 +115,9 @@ header a {
   .review {
     margin-top: 100px !important;
   }
+  .review .row {
+    text-align: center;
+  }
   .review p {
     width: 100% !important;
   }
@@ -130,6 +133,12 @@ header a {
   }
   footer .row div {
     margin-top: 30px !important;
+  }
+  .enterprice {
+    margin-top: 100px;
+  }
+  .effects {
+    margin-top: 100px;
   }
 }
 .product {
@@ -229,6 +238,19 @@ footer .input {
   margin-bottom: 20px;
 }
 
+.enterprice {
+  margin-top: 150px;
+  background: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
+}
+
+.effects {
+  margin-top: 150px;
+}
+
+.question .panel {
+  overflow: hidden;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -236,6 +258,7 @@ footer .input {
 }
 
 body {
+  max-width: 1200px;
   margin: 200px auto;
   width: 90%;
 }/*# sourceMappingURL=style.css.map */

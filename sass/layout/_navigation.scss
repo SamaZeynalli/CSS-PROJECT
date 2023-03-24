@@ -45,6 +45,9 @@
     }
     .review {
         margin-top: 100px !important;
+        .row {
+            text-align: center;
+        }
         p {
             width: 100% !important;
         }
@@ -64,5 +67,12 @@
                 margin-top: 30px !important;
             }
         }
+    }
+    .enterprice {
+        margin-top: 100px;
+    }
+
+    .effects {
+        margin-top: 100px;
     }
 }
