@@ -123,6 +123,7 @@ header a {
   }
   .join {
     margin-top: 100px !important;
+    text-align: center !important;
   }
   .join .img {
     margin-top: 40px !important;
@@ -135,10 +136,25 @@ header a {
     margin-top: 30px !important;
   }
   .enterprice {
-    margin-top: 100px;
+    margin-top: 100px !important;
   }
   .effects {
-    margin-top: 100px;
+    margin-top: 100px !important;
+  }
+  main {
+    margin-top: 50px !important;
+  }
+  .customers {
+    margin-top: 50px !important;
+  }
+  .work {
+    margin-top: 50px !important;
+  }
+  .offer {
+    margin-top: 50px !important;
+  }
+  .offer h2 {
+    width: 100% !important;
   }
 }
 .product {
@@ -249,6 +265,34 @@ footer .input {
 
 .question .panel {
   overflow: hidden;
+}
+
+main {
+  margin-top: 120px;
+}
+
+.customers {
+  background: #F5F5F5;
+  margin-top: 120px;
+}
+.customers .card {
+  background: #F5F5F5;
+}
+.customers img {
+  width: 50px;
+  height: 50px;
+}
+
+.work {
+  margin-top: 100px;
+}
+.work .nth:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.offer {
+  margin-top: 100px;
+  background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
 }
 
 * {

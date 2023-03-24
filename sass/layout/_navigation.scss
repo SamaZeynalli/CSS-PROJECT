@@ -54,6 +54,7 @@
     }
     .join {
         margin-top: 100px !important;
+        text-align: center !important;
         .img {
             margin-top: 40px !important;
         }
@@ -69,10 +70,26 @@
         }
     }
     .enterprice {
-        margin-top: 100px;
+        margin-top: 100px !important;
     }
 
     .effects {
-        margin-top: 100px;
+        margin-top: 100px !important;
+    }
+    main {
+        margin-top: 50px !important;
+    }
+    .customers {
+        margin-top: 50px !important;
+    }
+    .work {
+        margin-top: 50px !important;
+    }
+
+    .offer {
+        margin-top: 50px !important;
+        h2 {
+            width: 100% !important;
+        }
     }
 }
