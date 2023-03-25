@@ -1,5 +1,7 @@
 .product {
-    background: linear-gradient(179.59deg, #EDEDED 0.35%, rgba(255, 255, 255, 0.0001) 99.63%);
+    .container {
+            background: linear-gradient(179.59deg, #EDEDED 0.35%, rgba(255, 255, 255, 0.0001) 99.63%);
+    }
 }
 
 .advantage {
@@ -44,6 +46,9 @@
             button {
                 color: var(--green);
                 background: var(--white);
+            }
+            .price-value span {
+                color: var(--white);
             }
         }
         .price-value {
@@ -90,16 +95,6 @@
                 background: var(--white);
             }
         }
-    }
-}
-
-footer {
-    margin-top: 150px;
-    .input {
-        border: 1px solid #BCD0E5;
-        border-radius: 4px;
-        margin-top: 34px;
-        margin-bottom: 20px;
     }
 }
 
