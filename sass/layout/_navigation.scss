@@ -7,7 +7,9 @@
         .container {
             flex-direction: column !important;
             .header-box {
-                width: 100%;
+                div {
+                    justify-content: center;
+                }
                 h1, p {
                     text-align: center;
                 }
@@ -63,6 +65,10 @@
     footer {
         margin-top: 100px !important;
         text-align: center;
+        .social {
+            justify-content: center !important;
+            align-items: center;
+        }
         .row {
             div {
                 margin-top: 30px !important;
@@ -78,6 +84,9 @@
     }
     main {
         margin-top: 50px !important;
+        a {
+            width: calc((100% - 50px) / 2);
+        }
     }
     .customers {
         margin-top: 50px !important;
@@ -94,9 +103,11 @@
     }
     .enter {
         margin-top: 50px !important;
+        text-align: center;
     }
     .contact {
         margin-top: 100px !important;
+        text-align: center;
         .iframe {
             width: 360px !important;
             height: 320px !important;

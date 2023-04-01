@@ -62,16 +62,29 @@ ul {
   color: #173A56;
 }
 
+header {
+  justify-content: space-between;
+}
 header .container {
   flex-direction: row-reverse;
   display: flex;
   align-items: center;
 }
-header .container .header-box {
-  width: 50%;
-}
 header a {
   color: var(--green);
+}
+
+footer {
+  margin-top: 150px;
+}
+footer .input {
+  border: 1px solid #BCD0E5;
+  border-radius: 4px;
+  margin-top: 34px;
+  margin-bottom: 20px;
+}
+footer .input input {
+  border: none;
 }
 
 @media (max-width: 768px) {
@@ -81,8 +94,8 @@ header a {
   header .container {
     flex-direction: column !important;
   }
-  header .container .header-box {
-    width: 100%;
+  header .container .header-box div {
+    justify-content: center;
   }
   header .container .header-box h1, header .container .header-box p {
     text-align: center;
@@ -132,6 +145,10 @@ header a {
     margin-top: 100px !important;
     text-align: center;
   }
+  footer .social {
+    justify-content: center !important;
+    align-items: center;
+  }
   footer .row div {
     margin-top: 30px !important;
   }
@@ -143,6 +160,9 @@ header a {
   }
   main {
     margin-top: 50px !important;
+  }
+  main a {
+    width: calc((100% - 50px) / 2);
   }
   .customers {
     margin-top: 50px !important;
@@ -158,16 +178,18 @@ header a {
   }
   .enter {
     margin-top: 50px !important;
+    text-align: center;
   }
   .contact {
     margin-top: 100px !important;
+    text-align: center;
   }
   .contact .iframe {
     width: 360px !important;
     height: 320px !important;
   }
 }
-.product {
+.product .container {
   background: linear-gradient(179.59deg, #EDEDED 0.35%, rgba(255, 255, 255, 0.0001) 99.63%);
 }
 
@@ -211,6 +233,9 @@ header a {
   color: var(--green);
   background: var(--white);
 }
+.price .pricing-table:hover .price-value span {
+  color: var(--white);
+}
 .price .pricing-table .price-value .amount {
   font-weight: 700;
   font-size: 76px;
@@ -238,6 +263,12 @@ header a {
 .review {
   margin-top: 150px;
 }
+.review .d-flex {
+  gap: 64px;
+}
+.review .d-flex div {
+  width: calc((100% - 128px) / 3);
+}
 
 .join {
   margin-top: 150px;
@@ -252,16 +283,6 @@ header a {
 .join .container:hover button {
   color: var(--green);
   background: var(--white);
-}
-
-footer {
-  margin-top: 150px;
-}
-footer .input {
-  border: 1px solid #BCD0E5;
-  border-radius: 4px;
-  margin-top: 34px;
-  margin-bottom: 20px;
 }
 
 .enterprice {
@@ -279,6 +300,9 @@ footer .input {
 
 main {
   margin-top: 120px;
+}
+main div {
+  gap: 50px;
 }
 
 .customers {
@@ -350,8 +374,4 @@ main {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body {
-  max-width: 1200px;
 }/*# sourceMappingURL=style.css.map */
